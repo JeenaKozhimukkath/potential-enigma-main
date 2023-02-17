@@ -4,7 +4,7 @@ function generateMarkdown(data) {
   return `
   # Project Title
   ${data.title}
-  ${data.getLicense}
+  ${data.license}
 
   # Description
   ${data.description}
@@ -16,14 +16,14 @@ function generateMarkdown(data) {
   3. [License](#License)
   4. [Tests](#Test)
   5. [Author](#Author)
-  6. [Contact](#Contact Information)
+  6. [Contact](#Contact-Information)
   7. [Links](#Links)
 
   ## About
   ${data.about}
 
   ## Installation
-  ${data.installaton}
+  ${data.installation}
 
   ## License
   ${data.license}
